@@ -15,7 +15,7 @@ describe('ChatService boundary', () => {
       apiKey: 'test-key',
       maxOutputTokens: GEMINI_MAX_OUTPUT_TOKENS,
       temperature: 0.2,
-      maxRetries: 0,
+      maxRetries: 2,
       streaming: false,
     })
     expect(GEMINI_MODEL).toBe('gemini-3.6-flash')

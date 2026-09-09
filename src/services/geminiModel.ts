@@ -24,7 +24,7 @@ export function createGeminiModelOptions(apiKey: string): GeminiModelOptions {
     apiKey,
     maxOutputTokens: GEMINI_MAX_OUTPUT_TOKENS,
     temperature: 0.2,
-    maxRetries: 0,
+    maxRetries: 2,
     streaming: false,
   }
 }
