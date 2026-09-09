@@ -35,4 +35,4 @@ npm run build
 
 ## Deployment
 
-The GitHub Pages workflow runs unit tests, intercepted E2E tests, and the production build before deployment. It builds with `/test-day-7/` as the repository base path. Configure `VITE_GOOGLE_API_KEY` only as a deployment secret if a live browser session is intentionally enabled; never commit or log its value.
+The GitHub Pages workflow runs unit tests, intercepted E2E tests, and the production build before deployment. It builds with `/cicd-lessons/` as the repository base path. Configure `VITE_GOOGLE_API_KEY` only as a deployment secret if a live browser session is intentionally enabled; never commit or log its value.
